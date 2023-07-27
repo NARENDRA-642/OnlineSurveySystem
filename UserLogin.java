@@ -1,3 +1,10 @@
+//This is the Home page which has both admin Login and attend as guest
+//1.I Used Java Swings For GUI and For backend i used MySql
+//2.I basically created a database crud_db with cred table wihich stores admin credentials like username,password,email and city
+//3.So when admin tries to login i have implemented a login which compares the password and username which is stored in cred table and if it matches login successfull
+//otherwise login unsuccessful warning message will shown 
+//if login is successful it will transferred to HomePage.java where the admin can create questions for survey 
+
 package Db;
 
 import java.awt.EventQueue;
