@@ -78,32 +78,6 @@ public class HomePage extends JFrame {
 		addSurvey.setIcon(new ImageIcon("C:\\Users\\K NARENDRA\\OneDrive\\Desktop\\addsurvey.png"));
 		addSurvey.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-//				
-//
-//				class RandomStringGenerator {
-//
-//				    private static final String CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-//				    private static final int STRING_LENGTH = 5;
-//
-//				    public static void main(String[] args) {
-//				        String randomString = generateRandomString();
-//				        System.out.println("Random String: " + randomString);
-//				    }
-//
-//				    public static String generateRandomString() {
-//				        StringBuilder stringBuilder = new StringBuilder(STRING_LENGTH);
-//				        Random random = new Random();
-//
-//				        for (int i = 0; i < STRING_LENGTH; i++) {
-//				            int randomIndex = random.nextInt(CHARACTERS.length());
-//				            char randomChar = CHARACTERS.charAt(randomIndex);
-//				            stringBuilder.append(randomChar);
-//				        }
-//
-//				        return stringBuilder.toString();
-//				    }
-//				}
-
 				
 				surveyname ob=new surveyname();
 				ob.setVisible(true);
